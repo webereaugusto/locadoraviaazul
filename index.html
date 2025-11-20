@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aluguel de Carros para Uber em Campinas | Via Azul Locadora</title>
+    <meta name="description" content="Locadora de veículos para motoristas de aplicativo (Uber, 99, InDrive) em Campinas. Planos com manutenção e seguro inclusos. Fature até 10k/mês. Sem burocracia." />
+    <meta name="keywords" content="Aluguel de carros para Uber Campinas, Locadora motorista app Campinas, Alugar carro sem burocracia, Via Azul, Aluguel para 99 Campinas" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23004aad%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><circle cx=%2212%22 cy=%2212%22 r=%2210%22/><path d=%22M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z%22/><path d=%22M2 12h20%22/></svg>" type="image/svg+xml" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Via Azul - Alugue e Dirija em Campinas" />
+    <meta property="og:description" content="Sem análise de crédito rígida. Planos flexíveis para motoristas de aplicativo. Comece a rodar hoje." />
+    <meta property="og:image" content="https://picsum.photos/1200/630" />
+
+    <!-- Schema.org Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRental",
+      "name": "Via Azul Locadora de Veículos",
+      "image": "https://picsum.photos/1200/630",
+      "telephone": "+5519981940463",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Eng. Antônio Francisco de Paula Souza, 1333",
+        "addressLocality": "Campinas",
+        "addressRegion": "SP",
+        "postalCode": "13045-135",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -22.9329,
+        "longitude": -47.0439
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "priceRange": "$$"
+    }
+    </script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              via: {
+                blue: '#004aad', // Primary Brand Blue
+                dark: '#002d6b', // Darker Blue
+                light: '#e6f0ff', // Light Background Blue
+              },
+              brand: {
+                green: '#25D366', // WhatsApp Green
+                orange: '#FF9F1C', // Secondary CTA
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      .fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      @keyframes fadeInUp {
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .delay-100 { animation-delay: 0.1s; }
+      .delay-200 { animation-delay: 0.2s; }
+      .delay-300 { animation-delay: 0.3s; }
+    </style>
+</head>
+  <body class="bg-slate-50 text-slate-800 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

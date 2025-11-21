@@ -36,19 +36,8 @@ const Hero: React.FC = () => {
               <MessageCircle className="mr-2" />
               Quero Alugar e Ser Meu Próprio Chefe
             </Button>
-            <Button variant="secondary" className="text-lg px-8 py-4">
-              Ver Nossa Frota
-            </Button>
           </div>
 
-          <div className="mt-8 flex items-center justify-center lg:justify-start gap-4 text-sm text-gray-200">
-            <div className="flex -space-x-2">
-              {[1, 2, 3, 4].map((i) => (
-                <img key={i} className="inline-block h-8 w-8 rounded-full ring-2 ring-via-dark" src={`https://picsum.photos/id/${100 + i}/32/32`} alt="User" />
-              ))}
-            </div>
-            <p>Mais de <span className="font-bold text-white">500+ motoristas</span> ativos.</p>
-          </div>
         </div>
 
         {/* Hero Image/Graphic (Desktop only or simplified on mobile) */}

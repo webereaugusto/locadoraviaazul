@@ -31,12 +31,29 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="flex items-center gap-2 group">
-              <div className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${isScrolled ? 'bg-via-blue' : 'bg-white'}`}>
-                <span className={`font-bold text-xl ${isScrolled ? 'text-white' : 'text-via-blue'}`}>V</span>
+            <a href="#" className="flex flex-col leading-none group">
+              <div className="flex items-center">
+                <span
+                  className={`font-bold text-3xl tracking-tight ${
+                    isScrolled ? 'text-slate-800' : 'text-white drop-shadow-sm'
+                  }`}
+                >
+                  Via
+                </span>
+                <span
+                  className={`font-bold text-3xl tracking-tight ${
+                    isScrolled ? 'text-via-blue' : 'text-blue-400 drop-shadow-sm'
+                  }`}
+                >
+                  Azul
+                </span>
               </div>
-              <span className={`font-bold text-2xl tracking-tight ${isScrolled ? 'text-slate-800' : 'text-white drop-shadow-md'}`}>
-                Via<span className="text-via-blue">Azul</span>
+              <span
+                className={`text-[10px] font-bold tracking-[0.2em] uppercase mt-0.5 ${
+                  isScrolled ? 'text-slate-500' : 'text-blue-100'
+                }`}
+              >
+                Locadora de Veículos
               </span>
             </a>
           </div>

@@ -30,11 +30,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-slate-300 text-sm">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-via-blue shrink-0" />
-                <span>Av. Norte-Sul, 1500 - Campinas, SP<br/>(Próximo ao centro)</span>
+                <span>Avenida Engenheiro Antônio Francisco de Paula Souza, 1333 - Campinas, SP</span>
               </li>
               <li className="flex items-center">
                 <MessageCircle className="h-5 w-5 mr-2 text-brand-green shrink-0" />
-                <a href={WHATSAPP_LINK} className="hover:text-white transition">(19) 98194-0463</a>
+                <a href={WHATSAPP_LINK} className="hover:text-white transition">(19) 97406-1838</a>
+              </li>
+              <li className="flex items-center">
+                <span className="h-5 w-5 mr-2 shrink-0" />
+                <a href="mailto:viasullocadora@gmail.com" className="hover:text-white transition">viasullocadora@gmail.com</a>
               </li>
               <li className="flex items-center">
                 <Clock className="h-5 w-5 mr-2 text-via-blue shrink-0" />

@@ -8,7 +8,7 @@ import {
   } from './components/Icons';
   import { Feature, CarPlan, Testimonial, FaqItem } from './types';
   
-  export const WHATSAPP_LINK = "https://wa.me/5519981940463?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20decidi%20ser%20meu%20pr%C3%B3prio%20patr%C3%A3o.%20Quero%20alugar%20um%20carro.";
+export const WHATSAPP_LINK = "https://wa.me/5519974061838?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20decidi%20ser%20meu%20pr%C3%B3prio%20patr%C3%A3o.%20Quero%20alugar%20um%20carro.";
   
   export const FEATURES: Feature[] = [
     {

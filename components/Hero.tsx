@@ -8,9 +8,13 @@ const Hero: React.FC = () => {
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1600&auto=format&fit=crop"
+          srcSet="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=640&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=960&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1280&auto=format&fit=crop 1280w, https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1600&auto=format&fit=crop 1600w, https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop 2070w"
+          sizes="100vw"
           alt="Motorista dirigindo em Campinas" 
           className="w-full h-full object-cover object-center"
+          decoding="async"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-via-dark/95 via-via-blue/80 to-via-blue/40"></div>
       </div>

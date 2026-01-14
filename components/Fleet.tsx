@@ -33,6 +33,10 @@ const Fleet: React.FC = () => {
                     src={plan.image} 
                     alt={plan.category} 
                     className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all"
+                    loading="lazy"
+                    decoding="async"
+                    width="1200"
+                    height="675"
                  />
                  <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-4">
                     <h3 className="text-white text-xl font-bold">{plan.category}</h3>
@@ -61,7 +65,7 @@ const Fleet: React.FC = () => {
           
           {/* Card Especial de CTA */}
           <div className="relative flex flex-col bg-gradient-to-br from-via-blue to-via-dark rounded-2xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-2 border-via-blue">
-            <div className="p-6 flex-1 flex flex-col items-center justify-center text-center min-h-[400px]">
+            <div className="p-6 flex-1 flex flex-col items-center justify-center text-center min-h-[320px] md:min-h-[400px]">
               <div className="mb-6">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-4">
                   <MessageCircle className="h-8 w-8 text-white" />

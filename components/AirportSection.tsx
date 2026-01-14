@@ -24,7 +24,7 @@ const AirportSection: React.FC = () => {
             {/* Background Image with gradient overlay */}
             <div className="absolute inset-0">
                 <img 
-                    src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d?q=80&w=2070&auto=format&fit=crop" 
+                    src="/images/photo-1530521954074-e64f6810b32d.webp" 
                     alt="Aeroporto Viagem Executiva" 
                     className="w-full h-full object-cover opacity-40"
                 />

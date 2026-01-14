@@ -12,7 +12,7 @@ const CitySection: React.FC = () => {
           <div className="w-full lg:w-1/2 relative">
             <div className="absolute inset-0 bg-via-blue transform rotate-3 rounded-2xl opacity-20"></div>
             <img 
-              src="https://americadosul.iclei.org/wp-content/uploads/sites/19/2021/04/foto-prefeitura-de-campinas-scaled.jpg" 
+              src="/images/foto-prefeitura-de-campinas-scaled.webp" 
               alt="Campinas Rodovia e Cidade" 
               className="relative rounded-2xl shadow-2xl w-full h-[400px] object-cover transform -rotate-2 hover:rotate-0 transition duration-500"
             />

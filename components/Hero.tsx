@@ -8,9 +8,7 @@ const Hero: React.FC = () => {
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1600&auto=format&fit=crop"
-          srcSet="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=640&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=960&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1280&auto=format&fit=crop 1280w, https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1600&auto=format&fit=crop 1600w, https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop 2070w"
-          sizes="100vw"
+          src="/images/bg.webp"
           alt="Motorista dirigindo em Campinas" 
           className="w-full h-full object-cover object-center"
           decoding="async"
@@ -50,7 +48,7 @@ const Hero: React.FC = () => {
              {/* Abstract Car Representation or Floating Card */}
              <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
                 <div className="bg-white rounded-xl overflow-hidden shadow-lg">
-                    <img src="https://editorial.pxcrush.net/carsales/general/editorial/2023-volkswagen-golf-life-02.jpg?width=1024&height=682" alt="Volkswagen Golf" className="w-full h-64 object-cover" />
+                    <img src="/images/2023-volkswagen-golf-life-02.webp" alt="Volkswagen Golf" className="w-full h-64 object-cover" loading="lazy" />
                     <div className="p-6">
                         <div className="flex justify-between items-center mb-2">
                             <h3 className="text-xl font-bold text-gray-900">Hatch Premium 1.4</h3>

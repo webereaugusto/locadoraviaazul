@@ -51,7 +51,7 @@ const RmcSection: React.FC = () => {
           <div className="w-full lg:w-1/2 order-1 lg:order-2 relative">
             <div className="absolute -inset-4 bg-brand-orange/20 rounded-full blur-3xl opacity-30"></div>
             <img 
-              src="https://www.raizesfm.com.br/wp-content/uploads/2023/04/image-292-edited.png" 
+              src="/images/image-292-edited.webp" 
               alt="Mapa da Região Metropolitana de Campinas" 
               className="relative rounded-2xl shadow-2xl w-full h-[400px] object-cover transform hover:scale-[1.02] transition duration-500"
             />

@@ -60,7 +60,7 @@ export const WHATSAPP_LINK = "https://wa.me/5519974061838?text=Ol%C3%A1%2C%20vim
     {
       name: "Argo",
       category: "Fiat Argo",
-      image: "https://www.automaistv.com.br/wp-content/uploads/2024/10/Fiat-Argo-Drive-1.0-manual-5-jpg.webp",
+      image: "/images/Fiat-Argo-Drive-1-0-manual-5-jpg.webp",
       price: "",
       features: [
         "Ar-condicionado",
@@ -86,7 +86,7 @@ export const WHATSAPP_LINK = "https://wa.me/5519974061838?text=Ol%C3%A1%2C%20vim
     {
       name: "Fastback",
       category: "Fiat Fastback",
-      image: "https://www.autossegredos.com.br/wp-content/uploads/2025/06/Novo-Fiat-Fastback-Impetus-T200-Hybrid-2026-3.webp",
+      image: "/images/Novo-Fiat-Fastback-Impetus-T200-Hybrid-2026-3.webp",
       price: "",
       uberBlack: true,
       features: [

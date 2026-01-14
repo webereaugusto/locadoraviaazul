@@ -13,6 +13,7 @@ export interface CarPlan {
   price: string;
   features: string[];
   popular?: boolean;
+  uberBlack?: boolean;
 }
 
 export interface Testimonial {

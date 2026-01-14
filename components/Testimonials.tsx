@@ -11,7 +11,7 @@ const Testimonials: React.FC = () => {
             Quem aluga, recomenda
           </h2>
           <p className="mt-4 text-xl text-blue-100">
-            Motoristas de toda Campinas confiam na Via Azul.
+            Motoristas de toda Campinas confiam na ViaSuL.
           </p>
         </div>
 

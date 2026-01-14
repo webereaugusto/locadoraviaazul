@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div>
             <span className="font-bold text-2xl tracking-tight mb-4 block">
-                Via<span className="text-via-blue">Azul</span>
+                ViaSuL
             </span>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               A locadora parceira do motorista de aplicativo em Campinas. 
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-slate-800 pt-8 text-center">
           <p className="text-slate-500 text-xs">
-            &copy; {new Date().getFullYear()} Via Azul Locadora de Veículos Ltda. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} ViaSuL Locadora de Veículos Ltda. Todos os direitos reservados.
           </p>
         </div>
       </div>

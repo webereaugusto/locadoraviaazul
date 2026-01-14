@@ -25,7 +25,7 @@ const LifestyleSection: React.FC = () => {
             
             <p className="text-lg text-blue-100 mb-6 leading-relaxed">
               Cansado de bater ponto, aguentar reuniões intermináveis e ter alguém vigiando cada passo seu? 
-              Na Via Azul, acreditamos que você nasceu para mais.
+              Na ViaSuL, acreditamos que você nasceu para mais.
             </p>
             
             <p className="text-lg text-blue-100 mb-8 leading-relaxed">
@@ -58,7 +58,7 @@ const LifestyleSection: React.FC = () => {
             {/* New Emotional Hook */}
             <div className="mb-8 border-l-4 border-brand-orange pl-4 bg-white/5 p-4 rounded-r-lg">
               <p className="text-xl font-medium text-white italic">
-                "Tudo que você precisa para começar é um parceiro como a Via Azul, que acredita em você."
+                "Tudo que você precisa para começar é um parceiro como a ViaSuL, que acredita em você."
               </p>
             </div>
 

@@ -1,4 +1,4 @@
-# 🚀 Guia de Publicação - Via Azul
+# 🚀 Guia de Publicação - ViaSuL
 
 ## ✅ Status do Projeto
 
@@ -13,7 +13,7 @@
 
 1. Acesse: https://github.com/new
 2. Nome do repositório: `locadoraviaazul`
-3. Descrição: "Site da Via Azul Locadora de Veículos"
+3. Descrição: "Site da ViaSuL Locadora de Veículos"
 4. Deixe como **Público** ou **Privado** (sua escolha)
 5. **NÃO** marque "Add a README file" (já temos)
 6. Clique em **"Create repository"**

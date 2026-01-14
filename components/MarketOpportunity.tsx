@@ -27,7 +27,7 @@ const MarketOpportunity: React.FC = () => {
               gigantesca por motoristas qualificados.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Esqueça o chefe chato e o horário fixo. Com a <strong>Via Azul</strong>, você tem a ferramenta 
+              Esqueça o chefe chato e o horário fixo. Com a <strong>ViaSuL</strong>, você tem a ferramenta 
               para construir sua liberdade financeira. O carro é nosso, o lucro é todo seu.
             </p>
           </div>

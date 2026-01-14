@@ -1,6 +1,6 @@
-# Via Azul - Locadora de Veículos
+# ViaSuL - Locadora de Veículos
 
-Site da Via Azul Locadora de Veículos para motoristas de aplicativo em Campinas.
+Site da ViaSuL Locadora de Veículos para motoristas de aplicativo em Campinas.
 
 ## 🚀 Tecnologias
 
@@ -51,4 +51,4 @@ npm run preview
 
 ## 📄 Licença
 
-Privado - Via Azul Locadora
+Privado - ViaSuL Locadora

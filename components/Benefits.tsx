@@ -7,7 +7,7 @@ const Benefits: React.FC = () => {
     <section id="benefits" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-base text-brand-orange font-semibold tracking-wide uppercase">Por que escolher a Via Azul?</h2>
+          <h2 className="text-base text-brand-orange font-semibold tracking-wide uppercase">Por que escolher a ViaSuL?</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">
             Tudo o que você precisa para focar na corrida
           </p>
@@ -47,7 +47,7 @@ const Benefits: React.FC = () => {
                As grandes locadoras não te aprovam?
              </h3>
              <p className="text-xl text-blue-100 max-w-3xl mx-auto font-medium">
-               Dê uma chance a Via Azul. Temos especialistas prontos para te ajudar. 
+               Dê uma chance a ViaSuL. Temos especialistas prontos para te ajudar. 
                Aqui você não é apenas um número, é um parceiro.
              </p>
            </div>

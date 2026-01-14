@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight drop-shadow-lg">
-            Comece a rodar hoje mesmo <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-300">sem burocracia</span>.
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-300">Comece a rodar hoje mesmo</span>.
           </h1>
           
           <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-2xl mx-auto lg:mx-0 font-light">
@@ -53,11 +53,7 @@ const Hero: React.FC = () => {
                             <span className="bg-green-100 text-green-800 text-xs font-bold px-2 py-1 rounded">Disponível</span>
                         </div>
                         <p className="text-gray-600 text-sm mb-4">Ideal para Uber Comfort e Black. Economia e conforto.</p>
-                        <div className="flex justify-between items-end border-t pt-4">
-                             <div>
-                                <p className="text-xs text-gray-500">Plano Semanal</p>
-                                <p className="text-2xl font-bold text-via-blue">R$ 749</p>
-                             </div>
+                        <div className="flex justify-end items-end border-t pt-4">
                              <span className="text-sm text-brand-orange font-semibold">Manutenção Inclusa</span>
                         </div>
                     </div>

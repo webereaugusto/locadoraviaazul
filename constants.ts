@@ -45,43 +45,70 @@ import {
   
   export const PLANS: CarPlan[] = [
     {
-      name: "Econômico",
-      category: "Hatch 1.0 (Gol)",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Volkswagen_Gol_Highline_2023_%2853708009248%29_%28cropped%29.jpg/1200px-Volkswagen_Gol_Highline_2023_%2853708009248%29_%28cropped%29.jpg", // VW Gol
-      price: "499",
+      name: "Polo",
+      category: "Volkswagen Polo",
+      image: "https://img.olx.com.br/thumbs700x500/82/827535939142276.webp",
+      price: "",
       features: [
         "Ar-condicionado",
         "Direção Hidráulica",
         "Manutenção Inclusa",
         "Seguro para App",
-        "1.500 km/semana"
+        "Econômico e confiável"
       ]
     },
     {
-      name: "Conforto",
-      category: "Sedan 1.6 (Voyage)",
-      image: "https://blogger.googleusercontent.com/img/a/AVvXsEilnKHtWYBS3IyEdyB6LRZmd2KNaipgJ_3KKLxi0j_5MwEBlp7nSn7QAv58alAcm08y6DkzRAs1Yfs9nhtQrvIcxWAHFxGS-ZnKZy4nA2WH-xBfRnfEErSiPKwARDCsT0OvGtgI58azv91T9BtRIRmLDaw7n46he85LdglQdI2k4zBXZ4-g4AI4gTSz=w1200-h630-p-k-no-nu", // VW Voyage
-      price: "589",
-      popular: true,
+      name: "Argo",
+      category: "Fiat Argo",
+      image: "https://www.automaistv.com.br/wp-content/uploads/2024/10/Fiat-Argo-Drive-1.0-manual-5-jpg.webp",
+      price: "",
       features: [
-        "Porta-malas amplo",
+        "Ar-condicionado",
         "Multimídia",
-        "Maior preferência no VIP",
         "Manutenção Inclusa",
-        "1.750 km/semana"
+        "Seguro para App",
+        "Econômico e confiável"
       ]
     },
     {
-      name: "Premium",
-      category: "Hatch Premium (Golf)",
-      image: "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2024/08/19162026/WhatsApp-Image-2024-08-19-at-14.11.43.jpeg", // VW Polo/Golf Style
-      price: "749",
+      name: "Sprinter",
+      category: "Van Sprinter",
+      image: "https://production.autoforce.com/uploads/picture/image/251344548/main_webp_comprar-sprinter-van-passageiro_dc348a69d3.png.webp",
+      price: "",
       features: [
-        "Câmbio Automático",
-        "Motor Potente",
-        "Ideal para Black/Comfort",
+        "Capacidade Ampliada",
+        "Ideal para Viagens",
+        "Manutenção Inclusa",
         "Seguro Total",
-        "Km Livre"
+        "Conforto para Passageiros"
+      ]
+    },
+    {
+      name: "Fastback",
+      category: "Fiat Fastback",
+      image: "https://www.autossegredos.com.br/wp-content/uploads/2025/06/Novo-Fiat-Fastback-Impetus-T200-Hybrid-2026-3.webp",
+      price: "",
+      uberBlack: true,
+      features: [
+        "SUV Compacto",
+        "Design Moderno",
+        "Manutenção Inclusa",
+        "Seguro Total",
+        "Ideal para Uber Black"
+      ]
+    },
+    {
+      name: "Cronos",
+      category: "Fiat Cronos",
+      image: "https://www.automaistv.com.br/wp-content/uploads/2025/07/fiat-cronos-drive-1.3-at-2026-1320x743.webp",
+      price: "",
+      uberBlack: true,
+      features: [
+        "Sedan Confortável",
+        "Câmbio Automático",
+        "Manutenção Inclusa",
+        "Seguro Total",
+        "Ideal para Uber Black"
       ]
     }
   ];
@@ -91,7 +118,7 @@ import {
       name: "Carlos Mendes",
       role: "Motorista Uber Black",
       location: "Campinas - Centro",
-      text: "A Via Azul salvou minha renda. Meu carro quebrou e em 24h eu já estava rodando com um carro deles. O atendimento é nota 10."
+      text: "A ViaSuL salvou minha renda. Meu carro quebrou e em 24h eu já estava rodando com um carro deles. O atendimento é nota 10."
     },
     {
       name: "Fernanda Souza",
@@ -103,7 +130,7 @@ import {
       name: "Roberto Lima",
       role: "Motorista Indrive",
       location: "Sumaré/Campinas",
-      text: "A aprovação foi muito tranquila. Em outras locadoras me barraram por score baixo, na Via Azul confiaram no meu trabalho."
+      text: "A aprovação foi muito tranquila. Em outras locadoras me barraram por score baixo, na ViaSuL confiaram no meu trabalho."
     }
   ];
   
@@ -114,7 +141,7 @@ import {
     },
     {
       question: "Qual o valor do caução?",
-      answer: "O valor do caução varia conforme a categoria do veículo, começando a partir de R$ 800,00, que pode ser parcelado. Entre em contato para detalhes."
+      answer: "O caução pode ser pago em até 3x no cartão de crédito. Temos taxas muito atrativas. O valor depende da data e do veículo escolhido. Ligue para saber mais detalhes."
     },
     {
       question: "Posso usar para Uber e 99?",
@@ -126,22 +153,22 @@ import {
     },
     {
       question: "Quanto tempo demora a aprovação?",
-      answer: "Nossa análise é expressa. Normalmente, em até 4 horas úteis damos o retorno sobre o seu cadastro."
+      answer: "Nossa análise é expressa. Normalmente, é entre 24 e 48 horas para darmos o retorno sobre o seu cadastro."
     },
     {
       question: "Como funciona o pagamento do aluguel?",
-      answer: "Trabalhamos no modelo pré-pago semanal (Pay & Drive). Você paga a semana para rodar. Aceitamos PIX e Boleto Bancário."
+      answer: "Trabalhamos no modelo pré-pago semanal (Pay & Drive). Você paga a semana para rodar."
     },
     {
       question: "O que está incluso no valor semanal?",
-      answer: "Tudo! Manutenção preventiva e corretiva (desgaste natural), seguro específico para aplicativos, licenciamento e IPVA."
+      answer: "Tudo! Manutenção preventiva, seguro específico para aplicativos, licenciamento e IPVA."
     },
     {
       question: "E se o carro quebrar na rua?",
-      answer: "Temos assistência 24 horas com guincho. Se o problema for mecânico e demorar para arrumar, disponibilizamos um carro reserva conforme disponibilidade."
+      answer: "O seguro tem assistência 24 horas com guincho. Estamos sempre prontos para te ajudar quando precisar."
     },
     {
       question: "Há limite de quilometragem?",
-      answer: "Depende do plano escolhido. Temos opções de 1.500km, 1.750km semanais e também planos com Km Livre. O Km excedente tem um valor fixo baixo."
+      answer: "O limite é de 8.000km por mês. O Km excedente tem um valor fixo baixo."
     }
   ];

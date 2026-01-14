@@ -12,7 +12,7 @@ const StepsSection: React.FC = () => {
     {
       icon: FileCheck,
       title: "2. Análise Expressa",
-      description: "Envie foto da sua CNH com EAR e comprovante de residência. Aprovamos seu cadastro em até 4 horas."
+      description: "Envie foto da sua CNH com EAR e comprovante de residência. Aprovamos seu cadastro entre 24 e 48 horas."
     },
     {
       icon: Car,
@@ -25,12 +25,12 @@ const StepsSection: React.FC = () => {
     <section className="py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-base text-brand-orange font-bold tracking-wide uppercase">Sem Burocracia</h2>
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            Alugar seu carro nunca foi tão fácil
+          <h2 className="text-base text-brand-orange font-bold tracking-wide uppercase">Menos Burocracia</h2>
+          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-300">Comece a rodar hoje mesmo</span>
           </h3>
           <p className="mt-4 max-w-2xl text-xl text-slate-500 mx-auto">
-            Eliminamos a papelada dos bancos tradicionais. Na Via Azul, o processo é transparente e focado na sua agilidade.
+            Eliminamos a papelada dos bancos tradicionais. Na ViaSuL, o processo é transparente e focado na sua agilidade.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const StepsSection: React.FC = () => {
             Iniciar Cadastro no WhatsApp
           </Button>
           <p className="mt-6 text-lg font-semibold text-via-blue">
-            Dê seu primeiro passo, alugue um carro com a Via Azul com facilidade de aprovação.
+            Dê seu primeiro passo, alugue um carro com a ViaSuL com facilidade de aprovação.
           </p>
           <p className="mt-2 text-sm text-slate-400">
             *Necessário CNH com observação EAR e caução facilitado.

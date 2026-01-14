@@ -45,7 +45,7 @@ const Header: React.FC = () => {
                     isScrolled ? 'text-via-blue' : 'text-blue-400 drop-shadow-sm'
                   }`}
                 >
-                  Azul
+                  SuL
                 </span>
               </div>
               <span

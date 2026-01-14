@@ -1,7 +1,7 @@
 import React from 'react';
-import { PLANS } from '../constants';
+import { PLANS, WHATSAPP_LINK } from '../constants';
 import Button from './Button';
-import { Check } from './Icons';
+import { Check, MessageCircle } from './Icons';
 
 const Fleet: React.FC = () => {
   return (
@@ -20,13 +20,11 @@ const Fleet: React.FC = () => {
           {PLANS.map((plan) => (
             <div 
               key={plan.name} 
-              className={`relative flex flex-col bg-white rounded-2xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 ${
-                plan.popular ? 'ring-2 ring-brand-orange shadow-xl md:scale-105 z-10' : 'border border-gray-200'
-              }`}
+              className="relative flex flex-col bg-white rounded-2xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-gray-200"
             >
-              {plan.popular && (
-                <div className="absolute top-0 right-0 bg-brand-orange text-white text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wide z-20">
-                  Mais Popular
+              {plan.uberBlack && (
+                <div className="absolute top-0 right-0 bg-slate-900 text-white text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wide z-20">
+                  Uber Black
                 </div>
               )}
               
@@ -43,13 +41,7 @@ const Fleet: React.FC = () => {
               </div>
 
               <div className="p-6 flex-1 flex flex-col">
-                <div className="flex items-baseline justify-center my-4">
-                  <span className="text-sm text-gray-500 font-medium mr-1">A partir de</span>
-                  <span className="text-4xl font-extrabold text-slate-900">R$ {plan.price}</span>
-                  <span className="text-slate-500 ml-1">/sem</span>
-                </div>
-
-                <ul className="space-y-4 mb-8 flex-1">
+                <ul className="space-y-4 mb-8 flex-1 mt-4">
                   {plan.features.map((feature) => (
                     <li key={feature} className="flex items-start">
                       <div className="flex-shrink-0">
@@ -60,12 +52,42 @@ const Fleet: React.FC = () => {
                   ))}
                 </ul>
 
-                <Button variant={plan.popular ? "primary" : "secondary"} fullWidth>
+                <Button variant="secondary" fullWidth>
                   Reservar {plan.name}
                 </Button>
               </div>
             </div>
           ))}
+          
+          {/* Card Especial de CTA */}
+          <div className="relative flex flex-col bg-gradient-to-br from-via-blue to-via-dark rounded-2xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border-2 border-via-blue">
+            <div className="p-6 flex-1 flex flex-col items-center justify-center text-center min-h-[400px]">
+              <div className="mb-6">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-4">
+                  <MessageCircle className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-4">
+                  Não encontrou o que procura?
+                </h3>
+                <p className="text-blue-100 text-lg mb-2">
+                  Temos mais opções disponíveis!
+                </p>
+                <p className="text-blue-200 text-sm mb-8">
+                  Fale conosco pelo WhatsApp e descubra o veículo perfeito para você.
+                </p>
+              </div>
+              
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-brand-green text-white text-base font-bold rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 hover:scale-105"
+              >
+                <MessageCircle className="h-5 w-5" />
+                Falar no WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

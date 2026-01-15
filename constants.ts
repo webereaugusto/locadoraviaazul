@@ -169,6 +169,6 @@ export const WHATSAPP_LINK = "https://wa.me/5519974061838?text=Ol%C3%A1%2C%20vim
     },
     {
       question: "Há limite de quilometragem?",
-      answer: "O limite é de 8.000km por mês. O Km excedente tem um valor fixo baixo."
+      answer: "O limite de quilometragem varia de acordo com o plano e contrato assinado. O Km excedente tem um valor fixo baixo."
     }
   ];

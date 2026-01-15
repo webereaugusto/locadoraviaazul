@@ -69,6 +69,10 @@ const Comparison: React.FC = () => {
                 <CheckCircle2 className="w-6 h-6 text-brand-green mr-3 flex-shrink-0" />
                 <span>Manutenção preventiva inclusa</span>
               </li>
+              <li className="flex items-center text-white font-medium">
+                <CheckCircle2 className="w-6 h-6 text-brand-green mr-3 flex-shrink-0" />
+                <span>Aprovação em até 48h</span>
+              </li>
             </ul>
           </div>
 

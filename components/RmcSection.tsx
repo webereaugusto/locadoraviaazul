@@ -14,10 +14,11 @@ const RmcSection: React.FC = () => {
               Região Metropolitana (RMC)
             </h2>
             <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">
-              Cidades conectadas: Você nunca roda vazio.
+              Atenda toda a Região Metropolitana de Campinas e aumente suas corridas
             </h3>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              A grande vantagem da nossa região é a proximidade. Em Campinas, uma corrida termina e a outra já começa na cidade vizinha. 
+              A grande vantagem da nossa região é a proximidade. Em Campinas, uma corrida termina e a outra já começa na cidade vizinha.
+              Com um carro alugado para aplicativo, você amplia sua área de atuação e reduz o tempo parado.
               Amplie seu raio de atuação e atenda passageiros em <strong>Sumaré, Hortolândia, Paulínia, Valinhos e Indaiatuba</strong>.
             </p>
             
@@ -52,7 +53,7 @@ const RmcSection: React.FC = () => {
             <div className="absolute -inset-4 bg-brand-orange/20 rounded-full blur-3xl opacity-30"></div>
             <img 
               src="/images/image-292-edited.webp" 
-              alt="Mapa da Região Metropolitana de Campinas" 
+              alt="Mapa da Região Metropolitana de Campinas para motoristas de aplicativo" 
               className="relative rounded-2xl shadow-2xl w-full h-[400px] object-cover transform hover:scale-[1.02] transition duration-500"
             />
             

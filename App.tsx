@@ -13,11 +13,13 @@ import LifestyleSection from './components/LifestyleSection';
 import Testimonials from './components/Testimonials';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
+import SeoStructuredData from './components/SeoStructuredData';
 import StickyWhatsApp from './components/StickyWhatsApp';
 
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50">
+      <SeoStructuredData />
       <Header />
       <main>
         <Hero />

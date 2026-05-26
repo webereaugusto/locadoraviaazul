@@ -22,15 +22,15 @@ const Hero: React.FC = () => {
         <div className="w-full lg:w-1/2 text-center lg:text-left text-white">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-sm font-medium mb-6 animate-[fadeIn_1s_ease-out]">
             <ShieldCheck size={16} className="text-brand-orange" />
-            <span>Locadora Oficial de Campinas</span>
+            <span>Locadora para motoristas de app em Campinas</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight drop-shadow-lg">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-300">Comece a rodar hoje mesmo</span>.
+            Aluguel de carros para <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-300">Uber, 99 e InDrive em Campinas</span>
           </h1>
           
           <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-2xl mx-auto lg:mx-0 font-light">
-            Carros revisados e prontos para Uber, 99 e InDrive. A aprovação mais rápida de Campinas e região.
+            Alugue um carro para aplicativo com aprovação rápida, manutenção inclusa e suporte para rodar em Campinas, Viracopos e toda a RMC.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
              {/* Abstract Car Representation or Floating Card */}
              <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
                 <div className="bg-white rounded-xl overflow-hidden shadow-lg">
-                    <img src="/images/2023-volkswagen-golf-life-02.webp" alt="Volkswagen Golf" className="w-full h-64 object-cover" loading="lazy" />
+                    <img src="/images/2023-volkswagen-golf-life-02.webp" alt="Carro para aluguel de aplicativo em Campinas" className="w-full h-64 object-cover" loading="lazy" />
                     <div className="p-6">
                         <div className="flex justify-between items-center mb-2">
                             <h3 className="text-xl font-bold text-gray-900">Hatch Premium 1.4</h3>

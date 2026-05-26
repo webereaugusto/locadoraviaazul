@@ -10,13 +10,13 @@ const AirportSection: React.FC = () => {
         {/* Header centered */}
         <div className="text-center mb-12 max-w-3xl mx-auto">
              <span className="inline-block py-1 px-3 rounded-full bg-blue-50 text-via-blue text-xs font-bold tracking-wider uppercase mb-4">
-                Oportunidade de Ouro
+                Corridas de maior ticket
              </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">
-                Translados e Aeroportos: Onde está o dinheiro grosso.
+                Corridas para Viracopos, Guarulhos e Congonhas aumentam seu faturamento
             </h2>
             <p className="text-lg text-slate-600">
-                Campinas é um hub logístico. Estar posicionado aqui permite pegar as corridas de <strong>maior valor agregado</strong> do estado.
+                Campinas é um hub logístico. Estar posicionado aqui permite pegar corridas de <strong>maior valor agregado</strong> para aeroportos e viagens executivas.
             </p>
         </div>
 
@@ -25,7 +25,7 @@ const AirportSection: React.FC = () => {
             <div className="absolute inset-0">
                 <img 
                     src="/images/photo-1530521954074-e64f6810b32d.webp" 
-                    alt="Aeroporto Viagem Executiva" 
+                    alt="Corridas para aeroportos saindo de Campinas" 
                     className="w-full h-full object-cover opacity-40"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/80 to-transparent"></div>

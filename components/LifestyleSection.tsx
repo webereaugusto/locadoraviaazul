@@ -16,16 +16,16 @@ const LifestyleSection: React.FC = () => {
           <div className="w-full lg:w-1/2">
             <div className="inline-flex items-center gap-2 text-brand-orange font-bold tracking-wider uppercase text-sm mb-4">
               <Sun size={18} />
-              <span>Qualidade de Vida</span>
+              <span>Liberdade para trabalhar</span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
-              Troque o escritório fechado pela <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-brand-green">liberdade das ruas</span>.
+              Trabalhe com mais liberdade e renda dirigindo em <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-brand-green">Campinas e região</span>.
             </h2>
             
             <p className="text-lg text-blue-100 mb-6 leading-relaxed">
               Cansado de bater ponto, aguentar reuniões intermináveis e ter alguém vigiando cada passo seu? 
-              Na ViaSuL, acreditamos que você nasceu para mais.
+              Na ViaSuL, você aluga um carro para aplicativo e ganha autonomia para fazer seu horário.
             </p>
             
             <p className="text-lg text-blue-100 mb-8 leading-relaxed">
@@ -73,8 +73,8 @@ const LifestyleSection: React.FC = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
               <img 
-                src="https://img.freepik.com/fotos-premium/jovem-indiano-feliz-aprendendo-a-dirigir-sentado-em-um-carro_116547-81419.jpg?semt=ais_incoming&w=740&q=80" 
-                alt="Homem feliz dirigindo carro" 
+                src="/images/lifestyle-driver.jpg" 
+                alt="Motorista de aplicativo dirigindo com liberdade em Campinas" 
                 className="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-700"
               />
               

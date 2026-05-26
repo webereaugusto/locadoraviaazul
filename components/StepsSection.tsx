@@ -25,12 +25,12 @@ const StepsSection: React.FC = () => {
     <section className="py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-base text-brand-orange font-bold tracking-wide uppercase">Menos Burocracia</h2>
+          <h2 className="text-base text-brand-orange font-bold tracking-wide uppercase">Como alugar seu carro para aplicativo</h2>
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-300">Comece a rodar hoje mesmo</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-300">Aluguel de carro para Uber em Campinas em 3 passos</span>
           </h3>
           <p className="mt-4 max-w-2xl text-xl text-slate-500 mx-auto">
-            Eliminamos a papelada dos bancos tradicionais. Na ViaSuL, o processo é transparente e focado na sua agilidade.
+            Nosso processo foi pensado para quem quer começar a rodar rápido em Campinas, com menos burocracia e atendimento direto no WhatsApp.
           </p>
         </div>
 

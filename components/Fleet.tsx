@@ -9,10 +9,10 @@ const Fleet: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">
-            Escolha o plano ideal para seu bolso
+            Frota para Uber, 99 e InDrive em Campinas
           </h2>
           <p className="mt-4 text-xl text-slate-600">
-            Veículos econômicos e confortáveis para maximizar seus ganhos.
+            Veículos econômicos, sedans e opções maiores para maximizar seus ganhos com aplicativo.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ const Fleet: React.FC = () => {
               <div className="h-48 bg-gray-200 relative">
                  <img 
                     src={plan.image} 
-                    alt={plan.category} 
+                    alt={`${plan.category} para aluguel de aplicativo em Campinas`} 
                     className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all"
                     loading="lazy"
                     decoding="async"

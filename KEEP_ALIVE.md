@@ -1,20 +1,20 @@
-# 🔄 Manter Render Ativo (Keep Alive)
+# Manter Site Ativo (Keep Alive)
 
 ## ⚠️ Problema
 
-Serviços gratuitos do Render entram em "sleep" após **15 minutos de inatividade**. Quando alguém acessa, o site demora alguns segundos para "acordar".
+Dependendo da hospedagem, o site pode sofrer lentidão inicial após períodos de inatividade. O monitoramento periódico ajuda a manter a resposta mais estável no domínio oficial.
 
 ## ✅ Solução Implementada
 
 ### GitHub Actions (Já Configurado)
 
-Foi criado um workflow que faz ping no site a cada **14 minutos**, mantendo-o sempre ativo.
+Foi criado um workflow que faz ping no site a cada **14 minutos**, usando o domínio oficial.
 
 **Arquivo:** `.github/workflows/keep-alive.yml`
 
 **Como funciona:**
 - Executa automaticamente a cada 14 minutos
-- Faz uma requisição para o site
+- Faz uma requisição para `https://www.viasullocadora.com.br/`
 - Mantém o serviço sempre "acordado"
 
 **Status:** ✅ Já está ativo e funcionando!
@@ -27,7 +27,7 @@ Foi criado um workflow que faz ping no site a cada **14 minutos**, mantendo-o se
 2. Crie conta gratuita
 3. Adicione novo monitor:
    - **Monitor Type:** HTTP(s)
-   - **URL:** https://locadoraviaazul.onrender.com
+   - **URL:** https://www.viasullocadora.com.br/
    - **Monitoring Interval:** 5 minutos
 4. Salve
 
@@ -41,7 +41,7 @@ Foi criado um workflow que faz ping no site a cada **14 minutos**, mantendo-o se
 1. Acesse: https://cron-job.org
 2. Crie conta gratuita
 3. Crie novo job:
-   - **URL:** https://locadoraviaazul.onrender.com
+   - **URL:** https://www.viasullocadora.com.br/
    - **Interval:** 14 minutos
 4. Salve
 
@@ -58,10 +58,10 @@ Serviços similares ao UptimeRobot, também gratuitos.
 ## ⚡ Verificar se está funcionando
 
 1. Acesse: https://github.com/webereaugusto/locadoraviaazul/actions
-2. Veja se o workflow "Keep Render Alive" está executando
+2. Veja se o workflow "Keep Site Alive" está executando
 3. Verifique os logs para confirmar
 
 ## 🎯 Resultado
 
-Com isso configurado, seu site no Render **nunca vai dormir** e sempre estará disponível instantaneamente!
+Com isso configurado, seu site tende a responder com mais consistência no domínio oficial e com menor chance de lentidão inicial.
 

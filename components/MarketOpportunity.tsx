@@ -19,12 +19,12 @@ const MarketOpportunity: React.FC = () => {
               Mercado em Expansão
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 text-slate-900">
-              Seja seu próprio patrão e fature até <span className="text-brand-orange">R$ 10 mil/mês</span>.
+              Motoristas de aplicativo em Campinas podem faturar até <span className="text-brand-orange">R$ 10 mil/mês</span>.
             </h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              O mercado de transporte por aplicativo no Brasil não para de crescer. 
-              Milhares de novos passageiros entram nas plataformas todos os anos, criando uma demanda 
-              gigantesca por motoristas qualificados.
+              O mercado de transporte por aplicativo em Campinas e na RMC não para de crescer.
+              Universidades, centros comerciais, bairros residenciais e aeroportos mantêm uma demanda constante
+              para quem trabalha com Uber, 99 e InDrive.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
               Esqueça o chefe chato e o horário fixo. Com a <strong>ViaSuL</strong>, você tem a ferramenta 

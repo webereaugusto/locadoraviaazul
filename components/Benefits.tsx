@@ -7,12 +7,12 @@ const Benefits: React.FC = () => {
     <section id="benefits" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-base text-brand-orange font-semibold tracking-wide uppercase">Por que escolher a ViaSuL?</h2>
+          <h2 className="text-base text-brand-orange font-semibold tracking-wide uppercase">Locadora para motorista de aplicativo</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            Tudo o que você precisa para focar na corrida
+            Aluguel de carros para Uber em Campinas com menos burocracia
           </p>
           <p className="mt-4 max-w-2xl text-xl text-slate-500 mx-auto">
-            Simplificamos o aluguel de carros para motoristas de aplicativo em Campinas. Sem letras miúdas.
+            A ViaSuL simplifica o aluguel de carros para motoristas de aplicativo em Campinas e região, com foco em aprovação rápida, manutenção inclusa e suporte real.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const Benefits: React.FC = () => {
 
         {/* New Approval Banner */}
         <div className="mt-16 bg-gradient-to-r from-via-blue to-via-dark rounded-2xl p-8 md:p-12 text-center relative overflow-hidden shadow-2xl">
-           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+           <div className="absolute inset-0 bg-white/5"></div>
            <div className="relative z-10">
              <div className="inline-block p-3 bg-white/10 rounded-full mb-4">
                <CheckCircle className="text-brand-green w-8 h-8" />

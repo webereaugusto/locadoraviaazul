@@ -73,7 +73,7 @@ export const WHATSAPP_LINK = "https://wa.me/5519998945035?text=Ol%C3%A1%2C%20vim
     {
       name: "Sprinter",
       category: "Van Sprinter",
-      image: "https://production.autoforce.com/uploads/picture/image/251344548/main_webp_comprar-sprinter-van-passageiro_dc348a69d3.png.webp",
+      image: "/images/sprinter.webp",
       price: "",
       features: [
         "Capacidade Ampliada",
@@ -100,7 +100,7 @@ export const WHATSAPP_LINK = "https://wa.me/5519998945035?text=Ol%C3%A1%2C%20vim
     {
       name: "Cronos",
       category: "Fiat Cronos",
-      image: "https://www.automaistv.com.br/wp-content/uploads/2025/07/fiat-cronos-drive-1.3-at-2026-1320x743.webp",
+      image: "/images/cronos.webp",
       price: "",
       uberBlack: true,
       features: [
@@ -137,11 +137,11 @@ export const WHATSAPP_LINK = "https://wa.me/5519998945035?text=Ol%C3%A1%2C%20vim
   export const FAQS: FaqItem[] = [
     {
       question: "Preciso de cartão de crédito?",
-      answer: "Não exigimos cartão de crédito obrigatório. Aceitamos caução via PIX ou boleto, facilitando para quem está começando."
+      answer: "Não exigimos cartão de crédito obrigatório. Aceitamos caução via PIX, boleto ou cartão, facilitando para quem quer alugar carro para aplicativo em Campinas."
     },
     {
       question: "Qual o valor do caução?",
-      answer: "O caução pode ser pago em até 3x no cartão de crédito. Temos taxas muito atrativas. O valor depende da data e do veículo escolhido. Ligue para saber mais detalhes."
+      answer: "O valor do caução varia conforme o veículo, a data e o perfil do contrato. Nossa equipe informa as condições atualizadas no WhatsApp antes da aprovação."
     },
     {
       question: "Posso usar para Uber e 99?",
@@ -153,7 +153,7 @@ export const WHATSAPP_LINK = "https://wa.me/5519998945035?text=Ol%C3%A1%2C%20vim
     },
     {
       question: "Quanto tempo demora a aprovação?",
-      answer: "Nossa análise é expressa. Normalmente, é entre 24 e 48 horas para darmos o retorno sobre o seu cadastro."
+      answer: "Nossa análise é expressa. Normalmente, o retorno acontece entre 24 e 48 horas para locação em Campinas e região."
     },
     {
       question: "Como funciona o pagamento do aluguel?",
@@ -170,5 +170,29 @@ export const WHATSAPP_LINK = "https://wa.me/5519998945035?text=Ol%C3%A1%2C%20vim
     {
       question: "Há limite de quilometragem?",
       answer: "O limite de quilometragem varia de acordo com o plano e contrato assinado. O Km excedente tem um valor fixo baixo."
+    },
+    {
+      question: "Onde retiro o carro em Campinas?",
+      answer: "A retirada é feita em Campinas, na Avenida Engenheiro Antônio Francisco de Paula Souza, 1333. Após a aprovação, agendamos o melhor horário para você buscar o veículo."
+    },
+    {
+      question: "Vocês atendem motoristas da RMC?",
+      answer: "Sim. Atendemos motoristas de Campinas e de toda a Região Metropolitana, incluindo Sumaré, Hortolândia, Paulínia, Valinhos e Indaiatuba."
+    },
+    {
+      question: "Posso fazer corridas para Viracopos, Guarulhos e Congonhas?",
+      answer: "Sim. Nossos veículos podem ser usados em corridas urbanas, viagens intermunicipais e translados para aeroportos, conforme as condições do contrato."
+    },
+    {
+      question: "Quais documentos preciso para alugar um carro para app?",
+      answer: "Normalmente solicitamos CNH com EAR, documento pessoal e comprovante de residência. Nossa equipe orienta todo o envio pelo WhatsApp."
+    },
+    {
+      question: "O aluguel inclui seguro para aplicativo?",
+      answer: "Sim. Os planos incluem seguro para app, manutenção preventiva, licenciamento e IPVA, para você rodar com mais tranquilidade."
+    },
+    {
+      question: "Em quanto tempo consigo começar a rodar?",
+      answer: "Depois da aprovação do cadastro e da assinatura do contrato, você pode agendar a retirada em Campinas e começar a trabalhar rapidamente."
     }
   ];

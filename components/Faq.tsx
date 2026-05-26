@@ -13,8 +13,8 @@ const Faq: React.FC = () => {
     <section id="faq" className="py-20 bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-slate-900">Dúvidas Frequentes</h2>
-          <p className="mt-4 text-lg text-slate-500">Respondemos as principais perguntas dos motoristas.</p>
+          <h2 className="text-3xl font-extrabold text-slate-900">Perguntas frequentes sobre aluguel de carros para Uber em Campinas</h2>
+          <p className="mt-4 text-lg text-slate-500">Respondemos as dúvidas mais comuns de quem quer alugar carro para aplicativo em Campinas e na RMC.</p>
         </div>
 
         <div className="space-y-4">
@@ -28,6 +28,8 @@ const Faq: React.FC = () => {
               <button
                 className="w-full flex justify-between items-center p-5 focus:outline-none"
                 onClick={() => toggle(index)}
+                aria-expanded={openIndex === index}
+                aria-controls={`faq-answer-${index}`}
               >
                 <span className={`font-semibold text-left ${openIndex === index ? 'text-via-blue' : 'text-slate-700'}`}>
                   {faq.question}
@@ -40,8 +42,9 @@ const Faq: React.FC = () => {
               </button>
               
               <div 
+                id={`faq-answer-${index}`}
                 className={`transition-all duration-300 ease-in-out overflow-hidden ${
-                  openIndex === index ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
+                  openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                 }`}
               >
                 <div className="p-5 pt-0 text-slate-600">

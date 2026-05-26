@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <MessageCircle className="h-5 w-5 mr-2 text-brand-green shrink-0" />
-                <a href={WHATSAPP_LINK} className="hover:text-white transition">(19) 97406-1838</a>
+                <a href={WHATSAPP_LINK} className="hover:text-white transition">(19) 99894-5035</a>
               </li>
               <li className="flex items-center">
                 <span className="h-5 w-5 mr-2 shrink-0" />

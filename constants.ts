@@ -47,7 +47,7 @@ export const WHATSAPP_LINK = "https://wa.me/5519998945035?text=Ol%C3%A1%2C%20vim
     {
       name: "Polo",
       category: "Volkswagen Polo",
-      image: "https://img.olx.com.br/thumbs700x500/82/827535939142276.webp",
+      image: "/images/polo.jpg",
       price: "",
       features: [
         "Ar-condicionado",
